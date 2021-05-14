@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1{
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: bisque;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
