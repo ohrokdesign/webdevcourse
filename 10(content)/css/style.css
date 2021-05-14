@@ -1,11 +1,18 @@
 body{
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
+    font-size: 90px;
 }
 
 h1{
+    font-size: 1em; /*100%=16px=1em*/
     margin: 0 auto;
     font-family: 'Roboto Mono', monospace;
+}
+
+h2{
+    font-size: 3rem;
+    margin-top: 0%;
 }
 
 span {
