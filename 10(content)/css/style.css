@@ -1,18 +1,31 @@
-body{
+body {
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 90px;
 }
 
-h1{
-    font-size: 1em; /*100%=16px=1em*/
-    margin: 0 auto;
-    font-family: 'Roboto Mono', monospace;
+a{
+    color: #4aa96c;
 }
 
-h2{
+h1 {
+    font-size: 1em;
+    /*100%=16px=1em*/
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    color: #4aa96c;
+}
+
+h2 {
     font-size: 3rem;
     margin-top: 0%;
+    color: #4aa96c;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3 {
+    color: #564a4a;
 }
 
 span {
@@ -20,26 +33,24 @@ span {
 }
 
 .top-container {
-    background-color: bisque;
+    background-color: #9fe6a0;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container {
-
-}
+.middle-container {}
 
 .bottom-container {
-
+    background-color: #9fe6a0;
+    color: #4aa96c;
 }
 
-.top-cloud{
+.top-cloud {
     position: absolute;
     right: 400px;
     top: 50px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
 }
-
