@@ -1,20 +1,24 @@
 body{
     text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 h1{
     margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.top-cloud{
-    position: absolute;
+span {
+    text-decoration: underline;
 }
 
-.bottom-cloud{
-    position: absolute;
+.top-container {
+    background-color: bisque;
+    position: relative;
+    padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
     width: 200px;
     height: 200px;
     background-color: blue;
@@ -24,5 +28,15 @@ h1{
     width: 200px;
     height: 200px;
     background-color: red;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.bottom-cloud{
     position: absolute;
 }
+
