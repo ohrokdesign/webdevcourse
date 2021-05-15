@@ -38,11 +38,45 @@ span {
     padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+    margin-bottom: 100px;
+}
+
+.profile {
+    margin: 100px;
+}
+
+hr{
+    border: 12px dotted gray;
+    border-bottom: none;
+    width: 5%;
+}
+
+.skills {
+    margin-top:100px ;
+}
+
+.btn {
+    background-color: #4aa96c;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 .bottom-container {
     background-color: #9fe6a0;
     color: #4aa96c;
+    padding: 50px;
+    
+}
+
+.bottom-text{
+    color: white;
 }
 
 .top-cloud {
@@ -63,13 +97,18 @@ span {
     line-height: 2;
 }
 
-.code1-img{
+.code1-img {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
+
 .code2-img {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.my-img {
+    width: 20%;
 }
