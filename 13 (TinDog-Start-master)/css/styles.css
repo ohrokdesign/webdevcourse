@@ -39,6 +39,17 @@ h1{
     color: #fff;
 }
 
+h3{
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
 .download-button{
     margin: 5% 3% 5% 0%;
 }
@@ -47,3 +58,19 @@ h1{
     width: 60%;
     transform: rotate(25deg);
 }
+
+.featureicon{
+    color: #ef8172;
+    font-size: 5em;
+    padding-bottom: 2rem;
+}
+
+.featureicon:hover{
+    color: #ff4c68;
+}
+
+#features{
+    margin: 100px auto;
+    text-align: center;
+}
+
